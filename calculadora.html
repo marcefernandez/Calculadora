@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coustard&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Calculadora</title>
+</head>
+<body>
+	<div class="calculator">
+		<div class="display">
+			<input type="text" id="result" placeholder="0">
+		</div>
+		<div class="buttons">
+			<button onclick="clearAll()">AC</button>
+			<button onclick="backspace()"><</button>
+			<button onclick="insert('-')">-</button>
+			<button onclick="insert('+')">+</button>
+			<button onclick="insert('7')">7</button>
+			<button onclick="insert('8')">8</button>
+			<button onclick="insert('9')">9</button>
+			<button onclick="insert('*')">&times;</button>
+			<button onclick="insert('4')">4</button>
+			<button onclick="insert('5')">5</button>
+			<button onclick="insert('6')">6</button>
+			<button onclick="insert('/')">&divide;</button>
+			<button onclick="insert('1')">1</button>
+			<button onclick="insert('2')">2</button>
+			<button onclick="insert('3')">3</button>
+			<button onclick="insert('.')">.</button>
+			<button onclick="insert('0')">0</button>
+			<button class="equal" onclick="calcular()">=</button>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

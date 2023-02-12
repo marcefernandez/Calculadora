@@ -11,11 +11,13 @@
 </head>
 <body>
 	<div class="calculator">
+
 		<div class="display">
 			<input type="text" id="result" placeholder="0">
 		</div>
+		
 		<div class="buttons">
-			<button onclick="clearAll()">AC</button>
+			<button class="button-ac" onclick="clearAll()">AC</button>
 			<button onclick="backspace()"><</button>
 			<button onclick="insert('-')">-</button>
 			<button onclick="insert('+')">+</button>
@@ -32,6 +34,7 @@
 			<button onclick="insert('3')">3</button>
 			<button onclick="insert('.')">.</button>
 			<button onclick="insert('0')">0</button>
+			<button onclick="insert('00')">00</button>
 			<button class="equal" onclick="calcular()">=</button>
 		</div>
 	</div>
